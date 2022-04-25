@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=
+libdir=
+includedir=
+
+Name: 
+Description: FIR filter library.
+Version: 
+URL: 
+Libs: -L${libdir} -lfir
+Cflags: -I${includedir}/fir -I${includedir}

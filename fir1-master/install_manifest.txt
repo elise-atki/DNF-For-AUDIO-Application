@@ -1,0 +1,10 @@
+/usr/local/lib/libfir.so.1.7.1
+/usr/local/lib/libfir.so.1
+/usr/local/lib/libfir.so
+/usr/local/include/Fir1fixed.h
+/usr/local/include/Fir1.h
+/usr/local/lib/libfir_static.a
+/usr/local/include/Fir1fixed.h
+/usr/local/include/Fir1.h
+/usr/local/lib/cmake/fir/fir-config.cmake
+/usr/local/lib/cmake/fir/fir-config-relwithdebinfo.cmake
