@@ -1,0 +1,40 @@
+READ ME FILE:
+
+DNF:
+
+Make DNF in dnfNeuronalfilter-main folder.
+
+Run filter as ./eeg_filter 5 & 
+Note the recording is stored in number 5 read in from researchdata_recordings folder
+
+
+Analysis;
+
+All data analysis is in analysis -> myanalysis folder. Copy over most recently generated .tsv files from 'p300' folder for analysis.
+
+PSDaudio.py : Works out power spectral density and plots. Also prints SNR values.
+
+weights.py : Plots weight distance
+
+dnftraces.py: Plots traces obtained in the DNF UI
+
+lmsplots.py: Plots preliminary experiment of LMS filter outputs
+
+Note tsv.py program converts data files to .tsv files for data analysis (preliminary experiment outputs files as data, not .tsv).
+
+
+
+
+Preliminary LMS: 
+
+Run ./lmsdemo
+
+Files are output to folder fir1-master -> demo
+Note fir1-master contains original recording obtained in experiment (recording2bassn.wav & recording2voxs+n.wav)
+
+
+Analysis;
+
+lmsplots.py : Plots outputs from LMS filter (preliminary)
+
+audioout.py : Converts .dat file to .wav 
